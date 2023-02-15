@@ -1,0 +1,151 @@
+0.000040 main                        (2): ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:
+0.000148 main                        (2): gphoto2 2.5.28.1
+0.000166 main                        (2): gphoto2 has been compiled with the following options:
+0.000180 main                        (2):  + gcc (C compiler used)
+0.000193 main                        (2):  + popt (mandatory, for handling command-line parameters)
+0.000206 main                        (2):  + exif (for displaying EXIF information)
+0.000219 main                        (2):  + cdk (for accessing configuration options)
+0.000232 main                        (2):  + aa (for displaying live previews)
+0.000245 main                        (2):  + jpeg (for displaying live previews in JPEG format)
+0.000257 main                        (2):  + readline (for easy navigation in the shell)
+0.000272 main                        (2): libgphoto2 2.5.30.1
+0.000286 main                        (2): libgphoto2 has been compiled with the following options:
+0.000301 main                        (2):  + standard camlib set (ax203 canon digigr8 dimagev directory docupen jl2005a jl2005c kodak_dc240 lumix mars pentax ptp2 ricoh_g3 sierra sonix sq905 st2205 topfield tp6801)
+0.000314 main                        (2):  + gcc (C compiler used)
+0.000327 main                        (2):  + no ltdl (for portable loading of camlibs)
+0.000339 main                        (2):  + EXIF (for special handling of EXIF files)
+0.000354 main                        (2): libgphoto2_port 0.12.2
+0.000369 main                        (2): libgphoto2_port has been compiled with the following options:
+0.000382 main                        (2):  + iolibs: disk ptpip serial usb1 usbdiskdirect usbscsi
+0.000394 main                        (2):  + gcc (C compiler used)
+0.000407 main                        (2):  + no ltdl (for portable loading of iolibs)
+0.000419 main                        (2):  + EXIF (for vusb)
+0.000432 main                        (2):  + USB (libusb1, for USB cameras)
+0.000445 main                        (2):  + serial (for serial cameras)
+0.000457 main                        (2):  + no resmgr (serial port access and locking)
+0.000470 main                        (2):  + no ttylock (serial port locking)
+0.000482 main                        (2):  + no lockdev (serial port locking)
+0.000495 main                        (2): CAMLIBS env var not set, using compile-time default instead
+0.000508 main                        (2): IOLIBS env var not set, using compile-time default instead
+0.000521 main                        (2): invoked with following arguments:
+0.000534 main                        (2):   --debug
+0.000547 main                        (2):   --debug-logfile=/root/cp/ilce-1/results/2023-02-15_17.03.23_3_list-all-config_1_debug.txt
+0.000560 main                        (2):   --list-all-config
+0.000621 load_settings               (2): Creating gphoto config directory ('/root/.gphoto')
+0.000717 load_settings               (2): Loading settings from file '/root/.gphoto/settings'.
+0.001110 gp_camera_init              (2): Initializing camera...
+0.001149 gp_camera_init              (2): Neither port nor model set. Trying auto-detection...
+0.001172 gp_port_init_localedir      (2): localedir has been set to /usr/local/share/locale (compile-time default)
+0.001190 gp_init_localedir           (2): localedir has been set to /usr/local/share/locale (compile-time default)
+0.001219 unlocked_gp_abilities_list_load_dir(2): Using ltdl to load camera libraries from '/usr/local/lib/libgphoto2/2.5.30.1'...
+0.001549 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ax203'.
+0.001571 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/canon'.
+0.001587 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/digigr8'.
+0.001601 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/dimagev'.
+0.001614 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/directory'.
+0.001628 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/docupen'.
+0.001665 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/jl2005a'.
+0.001680 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/jl2005c'.
+0.001694 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/kodak_dc240'.
+0.001708 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/lumix'.
+0.001723 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/mars'.
+0.001737 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/pentax'.
+0.001751 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ptp2'.
+0.001765 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ricoh_g3'.
+0.001779 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sierra'.
+0.001793 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sonix'.
+0.001807 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sq905'.
+0.001821 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/st2205'.
+0.001835 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/topfield'.
+0.001849 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/tp6801'.
+0.001878 unlocked_gp_abilities_list_load_dir(2): Found 20 camera drivers.
+0.095459 gp_port_init_localedir      (2): ignoring late call (localedir value NULL)
+0.095567 gp_port_info_list_load      (2): Using ltdl to load io-drivers from '/usr/local/lib/libgphoto2_port/0.12.2'...
+0.095759 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/disk'.
+0.096131 gp_port_library_list        (2): found fstab fstype proc
+0.096161 gp_port_library_list        (2): found fstab fstype vfat
+0.096202 gp_port_library_list        (2): found fstab fstype ext4
+0.096231 gp_port_library_list        (2): found fstab fstype tmpfs
+0.096399 gp_port_library_list        (2): found mtab fstype ext4
+0.096428 gp_port_library_list        (2): found mtab fstype devtmpfs
+0.096449 gp_port_library_list        (2): found mtab fstype sysfs
+0.096468 gp_port_library_list        (2): found mtab fstype proc
+0.096487 gp_port_library_list        (2): found mtab fstype securityfs
+0.096507 gp_port_library_list        (2): found mtab fstype tmpfs
+0.096546 gp_port_library_list        (2): found mtab fstype devpts
+0.096565 gp_port_library_list        (2): found mtab fstype tmpfs
+0.096603 gp_port_library_list        (2): found mtab fstype tmpfs
+0.096642 gp_port_library_list        (2): found mtab fstype tmpfs
+0.096687 gp_port_library_list        (2): found mtab fstype cgroup2
+0.096706 gp_port_library_list        (2): found mtab fstype cgroup
+0.096724 gp_port_library_list        (2): found mtab fstype bpf
+0.096765 gp_port_library_list        (2): found mtab fstype cgroup
+0.096785 gp_port_library_list        (2): found mtab fstype cgroup
+0.096855 gp_port_library_list        (2): found mtab fstype cgroup
+0.096874 gp_port_library_list        (2): found mtab fstype cgroup
+0.096892 gp_port_library_list        (2): found mtab fstype cgroup
+0.096910 gp_port_library_list        (2): found mtab fstype cgroup
+0.096928 gp_port_library_list        (2): found mtab fstype cgroup
+0.096946 gp_port_library_list        (2): found mtab fstype cgroup
+0.096964 gp_port_library_list        (2): found mtab fstype autofs
+0.096982 gp_port_library_list        (2): found mtab fstype debugfs
+0.097026 gp_port_library_list        (2): found mtab fstype rpc_pipefs
+0.097065 gp_port_library_list        (2): found mtab fstype mqueue
+0.097084 gp_port_library_list        (2): found mtab fstype configfs
+0.097128 gp_port_library_list        (2): found mtab fstype tmpfs
+0.097165 gp_port_library_list        (2): found mtab fstype vfat
+0.097198 gp_port_library_list        (2): found mtab fstype tmpfs
+0.097313 foreach_func                (2): Loaded '' ('^disk:') from '/usr/local/lib/libgphoto2_port/0.12.2/disk'.
+0.097332 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.097630 foreach_func                (2): Loaded 'PTP/IP Connection' ('ptpip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.097650 foreach_func                (2): Loaded '' ('^ptpip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.097664 foreach_func                (2): Loaded 'IP Connection' ('ip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.097679 foreach_func                (2): Loaded '' ('^ip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.097693 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.098203 foreach_func                (2): Loaded 'Serial Port 0' ('serial:/dev/ttyS0') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.098223 foreach_func                (2): Loaded 'Serial Port Device' ('serial:') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.098237 foreach_func                (2): Loaded '' ('^serial:') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.098251 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.104708 foreach_func                (2): Loaded '' ('^usb:') from '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.104756 foreach_func                (2): Loaded 'Universal Serial Bus' ('usb:') from '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.104772 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usbdiskdirect'.
+0.105143 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usbscsi'.
+0.105497 gp_port_info_list_count     (2): Counting entries (10 available)...
+0.105516 gp_port_info_list_count     (2): 5 regular entries available.
+0.105529 gp_port_new                 (2): Creating new device...
+0.105549 gp_port_info_list_get_info  (2): Getting info of entry 0 (10 available)...
+0.105756 gp_port_set_settings        (2): Setting settings...
+0.105778 gp_port_info_list_get_info  (2): Getting info of entry 1 (10 available)...
+0.106009 gp_port_set_settings        (2): Setting settings...
+0.106028 gp_port_info_list_get_info  (2): Getting info of entry 2 (10 available)...
+0.106272 gp_port_set_timeout         (2): Setting port timeout to 500 milliseconds.
+0.106289 gp_port_set_settings        (2): Setting settings...
+0.106305 gp_port_info_list_get_info  (2): Getting info of entry 3 (10 available)...
+0.106538 gp_port_set_timeout         (2): Setting port timeout to 500 milliseconds.
+0.106554 gp_port_set_settings        (2): Setting settings...
+0.106569 gp_port_info_list_get_info  (2): Getting info of entry 4 (10 available)...
+0.112548 gp_port_set_timeout         (2): Setting port timeout to 5000 milliseconds.
+0.112591 gp_port_set_settings        (2): Setting settings...
+0.112612 gp_libusb1_update           (2): (old int=0, conf=-1, alt=-1) port usb:, (new int=0, conf=-1, alt=-1) port usb:
+0.112627 gp_libusb1_update           (2): lowlevel libusb1 port not yet opened, no need for libusb changes
+0.112642 gp_abilities_list_detect_usb(2): Auto-detecting USB cameras...
+0.114187 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x29a, subclass, 0xffffffff, protocol 0xffffffff)...
+0.114211 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x29a, subclass, 0xffffffff, protocol 0xffffffff)...
+0.114225 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x29a, subclass, 0xffffffff, protocol 0xffffffff)...
+0.115381 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x6, subclass, 0x1, protocol 0x1)...
+0.115419 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x6, subclass, 0x1, protocol 0x1)...
+0.115437 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x6, subclass, 0x1, protocol 0x1)...
+0.115524 gp_port_free                (2): Freeing port...
+0.115540 gp_port_close               (2): Closing port...
+0.116835 gp_context_error            (0): Could not detect any camera
+0.116965 gp_context_error            (0): An error occurred in the io-library ('Unknown error'): No error description available
+0.117053 gp_camera_free              (2): Freeing camera...
+0.117066 gp_port_free                (2): Freeing port...
+0.117082 gp_filesystem_reset         (2): resetting filesystem
+0.117094 gp_filesystem_lru_clear     (2): Clearing fscache LRU list...
+0.117107 gp_filesystem_lru_clear     (2): fscache LRU list already empty
+0.117121 delete_all_folders          (2): Internally deleting all folders from '/'...
+0.117134 lookup_folder               (2): Lookup folder '/'...
+0.117148 lookup_folder               (2): Found! / is 0x33f460
+0.117161 recurse_delete_folder       (2): Recurse delete folder 0x33f460//
+0.117175 delete_all_files            (2): Delete all files in folder 0x33f460//

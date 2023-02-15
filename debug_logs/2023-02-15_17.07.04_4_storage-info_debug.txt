@@ -1,0 +1,688 @@
+0.000057 main                        (2): ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:
+0.000195 main                        (2): gphoto2 2.5.28.1
+0.000223 main                        (2): gphoto2 has been compiled with the following options:
+0.000248 main                        (2):  + gcc (C compiler used)
+0.000271 main                        (2):  + popt (mandatory, for handling command-line parameters)
+0.000293 main                        (2):  + exif (for displaying EXIF information)
+0.000315 main                        (2):  + cdk (for accessing configuration options)
+0.000337 main                        (2):  + aa (for displaying live previews)
+0.000358 main                        (2):  + jpeg (for displaying live previews in JPEG format)
+0.000380 main                        (2):  + readline (for easy navigation in the shell)
+0.000404 main                        (2): libgphoto2 2.5.30.1
+0.000428 main                        (2): libgphoto2 has been compiled with the following options:
+0.000453 main                        (2):  + standard camlib set (ax203 canon digigr8 dimagev directory docupen jl2005a jl2005c kodak_dc240 lumix mars pentax ptp2 ricoh_g3 sierra sonix sq905 st2205 topfield tp6801)
+0.000475 main                        (2):  + gcc (C compiler used)
+0.000496 main                        (2):  + no ltdl (for portable loading of camlibs)
+0.000518 main                        (2):  + EXIF (for special handling of EXIF files)
+0.000543 main                        (2): libgphoto2_port 0.12.2
+0.000567 main                        (2): libgphoto2_port has been compiled with the following options:
+0.000589 main                        (2):  + iolibs: disk ptpip serial usb1 usbdiskdirect usbscsi
+0.000611 main                        (2):  + gcc (C compiler used)
+0.000632 main                        (2):  + no ltdl (for portable loading of iolibs)
+0.000653 main                        (2):  + EXIF (for vusb)
+0.000675 main                        (2):  + USB (libusb1, for USB cameras)
+0.000696 main                        (2):  + serial (for serial cameras)
+0.000717 main                        (2):  + no resmgr (serial port access and locking)
+0.000739 main                        (2):  + no ttylock (serial port locking)
+0.000760 main                        (2):  + no lockdev (serial port locking)
+0.000782 main                        (2): CAMLIBS env var not set, using compile-time default instead
+0.000804 main                        (2): IOLIBS env var not set, using compile-time default instead
+0.000825 main                        (2): invoked with following arguments:
+0.000847 main                        (2):   --debug
+0.000870 main                        (2):   --debug-logfile=/root/cp/ilce-1/results/2023-02-15_17.07.04_4_storage-info_debug.txt
+0.000892 main                        (2):   --storage-info
+0.000983 load_settings               (2): Creating gphoto config directory ('/root/.gphoto')
+0.001129 load_settings               (2): Loading settings from file '/root/.gphoto/settings'.
+0.001653 main                        (2): The user has not specified both a model and a port. Try to figure them out.
+0.001694 gp_port_init_localedir      (2): localedir has been set to /usr/local/share/locale (compile-time default)
+0.001724 gp_port_info_list_load      (2): Using ltdl to load io-drivers from '/usr/local/lib/libgphoto2_port/0.12.2'...
+0.002089 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/disk'.
+0.002644 gp_port_library_list        (2): found fstab fstype proc
+0.002691 gp_port_library_list        (2): found fstab fstype vfat
+0.002753 gp_port_library_list        (2): found fstab fstype ext4
+0.002798 gp_port_library_list        (2): found fstab fstype tmpfs
+0.003036 gp_port_library_list        (2): found mtab fstype ext4
+0.003083 gp_port_library_list        (2): found mtab fstype devtmpfs
+0.003117 gp_port_library_list        (2): found mtab fstype sysfs
+0.003147 gp_port_library_list        (2): found mtab fstype proc
+0.003178 gp_port_library_list        (2): found mtab fstype securityfs
+0.003248 gp_port_library_list        (2): found mtab fstype tmpfs
+0.003311 gp_port_library_list        (2): found mtab fstype devpts
+0.003343 gp_port_library_list        (2): found mtab fstype tmpfs
+0.003402 gp_port_library_list        (2): found mtab fstype tmpfs
+0.003462 gp_port_library_list        (2): found mtab fstype tmpfs
+0.003532 gp_port_library_list        (2): found mtab fstype cgroup2
+0.003562 gp_port_library_list        (2): found mtab fstype cgroup
+0.003591 gp_port_library_list        (2): found mtab fstype bpf
+0.003656 gp_port_library_list        (2): found mtab fstype cgroup
+0.003687 gp_port_library_list        (2): found mtab fstype cgroup
+0.003797 gp_port_library_list        (2): found mtab fstype cgroup
+0.003828 gp_port_library_list        (2): found mtab fstype cgroup
+0.003856 gp_port_library_list        (2): found mtab fstype cgroup
+0.003885 gp_port_library_list        (2): found mtab fstype cgroup
+0.003913 gp_port_library_list        (2): found mtab fstype cgroup
+0.003941 gp_port_library_list        (2): found mtab fstype cgroup
+0.003970 gp_port_library_list        (2): found mtab fstype autofs
+0.004000 gp_port_library_list        (2): found mtab fstype debugfs
+0.004071 gp_port_library_list        (2): found mtab fstype rpc_pipefs
+0.004133 gp_port_library_list        (2): found mtab fstype mqueue
+0.004163 gp_port_library_list        (2): found mtab fstype configfs
+0.004234 gp_port_library_list        (2): found mtab fstype tmpfs
+0.004293 gp_port_library_list        (2): found mtab fstype vfat
+0.004348 gp_port_library_list        (2): found mtab fstype tmpfs
+0.004525 foreach_func                (2): Loaded '' ('^disk:') from '/usr/local/lib/libgphoto2_port/0.12.2/disk'.
+0.004554 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.004991 foreach_func                (2): Loaded 'PTP/IP Connection' ('ptpip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.005023 foreach_func                (2): Loaded '' ('^ptpip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.005047 foreach_func                (2): Loaded 'IP Connection' ('ip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.005072 foreach_func                (2): Loaded '' ('^ip:') from '/usr/local/lib/libgphoto2_port/0.12.2/ptpip'.
+0.005095 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.005906 foreach_func                (2): Loaded 'Serial Port 0' ('serial:/dev/ttyS0') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.005940 foreach_func                (2): Loaded 'Serial Port Device' ('serial:') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.005964 foreach_func                (2): Loaded '' ('^serial:') from '/usr/local/lib/libgphoto2_port/0.12.2/serial'.
+0.005987 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.020052 foreach_func                (2): Loaded '' ('^usb:') from '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.020128 foreach_func                (2): Loaded 'Universal Serial Bus' ('usb:001,048') from '/usr/local/lib/libgphoto2_port/0.12.2/usb1'.
+0.020162 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usbdiskdirect'.
+0.020784 foreach_func                (2): Called for filename '/usr/local/lib/libgphoto2_port/0.12.2/usbscsi'.
+0.021509 gp_port_info_list_count     (2): Counting entries (10 available)...
+0.021552 gp_port_info_list_count     (2): 5 regular entries available.
+0.021590 gp_port_init_localedir      (2): ignoring late call (localedir value NULL)
+0.021624 gp_init_localedir           (2): localedir has been set to /usr/local/share/locale (compile-time default)
+0.021691 unlocked_gp_abilities_list_load_dir(2): Using ltdl to load camera libraries from '/usr/local/lib/libgphoto2/2.5.30.1'...
+0.022137 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ax203'.
+0.022207 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/canon'.
+0.022287 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/digigr8'.
+0.022314 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/dimagev'.
+0.022337 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/directory'.
+0.022360 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/docupen'.
+0.022383 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/jl2005a'.
+0.022406 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/jl2005c'.
+0.022431 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/kodak_dc240'.
+0.022454 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/lumix'.
+0.022477 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/mars'.
+0.022499 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/pentax'.
+0.022521 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ptp2'.
+0.022543 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/ricoh_g3'.
+0.022566 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sierra'.
+0.022589 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sonix'.
+0.022613 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/sq905'.
+0.022636 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/st2205'.
+0.022659 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/topfield'.
+0.022683 foreach_func                (2): Found '/usr/local/lib/libgphoto2/2.5.30.1/tp6801'.
+0.022722 unlocked_gp_abilities_list_load_dir(2): Found 20 camera drivers.
+0.131269 gp_port_info_list_count     (2): Counting entries (10 available)...
+0.131351 gp_port_info_list_count     (2): 5 regular entries available.
+0.131366 gp_port_new                 (2): Creating new device...
+0.131394 gp_port_info_list_get_info  (2): Getting info of entry 0 (10 available)...
+0.131795 gp_port_set_settings        (2): Setting settings...
+0.131825 gp_port_info_list_get_info  (2): Getting info of entry 1 (10 available)...
+0.132140 gp_port_set_settings        (2): Setting settings...
+0.132172 gp_port_info_list_get_info  (2): Getting info of entry 2 (10 available)...
+0.132441 gp_port_set_timeout         (2): Setting port timeout to 500 milliseconds.
+0.132459 gp_port_set_settings        (2): Setting settings...
+0.132475 gp_port_info_list_get_info  (2): Getting info of entry 3 (10 available)...
+0.132714 gp_port_set_timeout         (2): Setting port timeout to 500 milliseconds.
+0.132731 gp_port_set_settings        (2): Setting settings...
+0.132747 gp_port_info_list_get_info  (2): Getting info of entry 4 (10 available)...
+0.140262 gp_port_set_timeout         (2): Setting port timeout to 5000 milliseconds.
+0.140301 gp_port_set_settings        (2): Setting settings...
+0.140323 gp_libusb1_update           (2): (old int=0, conf=-1, alt=-1) port usb:001,048, (new int=0, conf=-1, alt=-1) port usb:001,048
+0.140338 gp_libusb1_update           (2): lowlevel libusb1 port not yet opened, no need for libusb changes
+0.140353 gp_abilities_list_detect_usb(2): Auto-detecting USB cameras...
+0.142654 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x29a, subclass, 0xffffffff, protocol 0xffffffff)...
+0.144386 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x6, subclass, 0x1, protocol 0x1)...
+0.144428 gp_libusb1_find_device_by_class_lib(2): Found USB class device (class 0x6, subclass, 0x1, protocol 0x1)
+0.144454 gp_libusb1_find_device_by_class_lib(2): inep to look for is 81
+0.144474 gp_libusb1_find_device_by_class_lib(2): Detected defaults: config 1, interface 0, altsetting 0, idVendor ID 054c, idProduct 0d1c, inep 81, outep 02, intep 83
+0.144490 gp_abilities_list_detect_usb(2): Found 'USB PTP Class Camera' (0x6,0x1,0x1)
+0.144537 gp_port_free                (2): Freeing port...
+0.144553 gp_port_close               (2): Closing port...
+0.145197 gp_camera_set_abilities     (2): Setting abilities ('USB PTP Class Camera')...
+0.145268 gp_setting_set              (2): Setting key 'model' to value 'USB PTP Class Camera' (gphoto2)
+0.145286 save_settings               (2): Saving 2 setting(s) to file "/root/.gphoto/settings"
+0.145640 gp_port_info_list_lookup_path(2): Looking for path 'usb:001,048' (10 entries available)...
+0.145668 gp_port_info_list_get_info  (2): Getting info of entry 4 (10 available)...
+0.145688 gp_camera_set_port_info     (2): Setting port info for port 'Universal Serial Bus' at 'usb:001,048'...
+0.153411 gp_port_set_timeout         (2): Setting port timeout to 5000 milliseconds.
+0.153455 gp_port_set_settings        (2): Setting settings...
+0.153477 gp_libusb1_update           (2): (old int=0, conf=-1, alt=-1) port usb:001,048, (new int=0, conf=-1, alt=-1) port usb:001,048
+0.153491 gp_libusb1_update           (2): lowlevel libusb1 port not yet opened, no need for libusb changes
+0.153511 gp_setting_set              (2): Setting key 'port' to value 'usb:001,048' (gphoto2)
+0.153529 save_settings               (2): Saving 2 setting(s) to file "/root/.gphoto/settings"
+0.153908 gp_camera_init              (2): Initializing camera...
+0.153965 gp_port_set_error [gphoto2-port.c:1190](0): The supplied vendor or product id (0x0,0x0) is not valid.
+0.154025 gp_libusb1_find_device_by_class_lib(2): Looking for USB device (class 0x6, subclass, 0x1, protocol 0x1)...
+0.154055 gp_libusb1_find_device_by_class_lib(2): Found USB class device (class 0x6, subclass, 0x1, protocol 0x1)
+0.154079 gp_libusb1_find_device_by_class_lib(2): inep to look for is 81
+0.154098 gp_libusb1_find_device_by_class_lib(2): Detected defaults: config 1, interface 0, altsetting 0, idVendor ID 054c, idProduct 0d1c, inep 81, outep 02, intep 83
+0.154112 gp_camera_init              (2): Loading '/usr/local/lib/libgphoto2/2.5.30.1/ptp2'...
+0.158688 gp_port_open                (2): Opening USB port...
+0.158732 gp_libusb1_open             (2): ()
+0.158809 gp_libusb1_open             (2): claiming interface 0
+0.159117 camera_init                 (2): maxpacketsize 512
+0.159142 gp_port_set_timeout         (2): Setting port timeout to 8000 milliseconds.
+0.159215 ptp                         (2): PTP: Opening session
+0.159260 ptp_usb_sendreq             (2): Sending PTP_OC 0x1002 (Open session) (0x1) request...
+0.159278 gp_port_write               (3): Writing 16 = 0x10 bytes to port...
+0.159425 gp_port_write               (3): Wrote   16 = 0x10 bytes to port: (hexdump of 16 bytes)
+0000  10 00 00 00 01 00 02 10-00 00 00 00 01 00 00 00  ................
+
+0.159447 ptp_usb_getresp             (2): Reading PTP_OC 0x1002 (Open session) response...
+0.159465 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.159915 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-00 00 00 00              ....... ....    
+
+0.159932 gp_port_set_timeout         (2): Setting port timeout to 20000 milliseconds.
+0.159952 ptp_usb_sendreq             (2): Sending PTP_OC 0x1001 (Get device info) request...
+0.159967 gp_port_write               (3): Writing 12 = 0xc bytes to port...
+0.160098 gp_port_write               (3): Wrote   12 = 0xc bytes to port: (hexdump of 12 bytes)
+0000  0c 00 00 00 01 00 01 10-01 00 00 00              ............    
+
+0.160116 ptp_usb_getdata             (2): Reading PTP_OC 0x1001 (Get device info) data...
+0.160132 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.160900 gp_port_read                (3): Read    315 = 0x13b out of 1024 bytes from port: (hexdump of 315 bytes)
+0000  3b 01 00 00 02 00 01 10-01 00 00 00 64 00 11 00  ;...........d...
+0010  00 00 64 00 14 53 00 6f-00 6e 00 79 00 20 00 50  ..d..S.o.n.y. .P
+0020  00 54 00 50 00 20 00 45-00 78 00 74 00 65 00 6e  .T.P. .E.x.t.e.n
+0030  00 73 00 69 00 6f 00 6e-00 73 00 00 00 00 00 1f  .s.i.o.n.s......
+0040  00 00 00 01 10 02 10 03-10 04 10 05 10 06 10 07  ................
+0050  10 08 10 09 10 0a 10 0d-10 1b 10 01 92 02 92 05  ................
+0060  92 07 92 09 92 0a 92 0b-92 0c 92 0d 92 0e 92 0f  ................
+0070  92 10 92 11 92 12 92 14-92 01 98 02 98 03 98 05  ................
+0080  98 0f 00 00 00 04 40 05-40 01 c2 02 c2 03 c2 04  ......@.@.......
+0090  c2 05 c2 06 c2 07 c2 08-c2 09 c2 0a c2 0b c2 0c  ................
+00a0  c2 0d c2 00 00 00 00 00-00 00 00 06 00 00 00 01  ................
+00b0  30 01 38 01 b1 0b 30 82-b9 10 b1 11 53 00 6f 00  0.8...0.....S.o.
+00c0  6e 00 79 00 20 00 43 00-6f 00 72 00 70 00 6f 00  n.y. .C.o.r.p.o.
+00d0  72 00 61 00 74 00 69 00-6f 00 6e 00 00 00 07 49  r.a.t.i.o.n....I
+00e0  00 4c 00 43 00 45 00 2d-00 31 00 00 00 05 31 00  .L.C.E.-.1....1.
+00f0  2e 00 33 00 31 00 00 00-21 30 00 30 00 30 00 30  ..3.1...!0.0.0.0
+0100  00 30 00 30 00 30 00 30-00 30 00 30 00 30 00 30  .0.0.0.0.0.0.0.0
+0110  00 30 00 30 00 30 00 30-00 33 00 32 00 38 00 35  .0.0.0.0.3.2.8.5
+0120  00 33 00 33 00 33 00 30-00 30 00 33 00 37 00 37  .3.3.3.0.0.3.7.7
+0130  00 39 00 33 00 38 00 36-00 00 00                 .9.3.8.6...     
+
+0.160957 ptp_usb_getresp             (2): Reading PTP_OC 0x1001 (Get device info) response...
+0.160973 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.161142 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-01 00 00 00              ....... ....    
+
+0.161178 print_debug_deviceinfo      (2): Device info:
+0.161193 print_debug_deviceinfo      (2): Manufacturer: Sony Corporation
+0.161207 print_debug_deviceinfo      (2):   Model: ILCE-1
+0.161220 print_debug_deviceinfo      (2):   device version: 1.31
+0.161233 print_debug_deviceinfo      (2):   serial number: '00000000000000003285333003779386'
+0.161247 print_debug_deviceinfo      (2): Vendor extension ID: 0x00000011
+0.161261 print_debug_deviceinfo      (2): Vendor extension version: 100
+0.161274 print_debug_deviceinfo      (2): Vendor extension description: Sony PTP Extensions
+0.161288 print_debug_deviceinfo      (2): Functional Mode: 0x0000
+0.161301 print_debug_deviceinfo      (2): PTP Standard Version: 100
+0.161314 print_debug_deviceinfo      (2): Supported operations:
+0.161329 print_debug_deviceinfo      (2):   0x1001 (Get device info)
+0.161344 print_debug_deviceinfo      (2):   0x1002 (Open session)
+0.161359 print_debug_deviceinfo      (2):   0x1003 (Close session)
+0.161373 print_debug_deviceinfo      (2):   0x1004 (Get storage IDs)
+0.161388 print_debug_deviceinfo      (2):   0x1005 (Get storage info)
+0.161403 print_debug_deviceinfo      (2):   0x1006 (Get number of objects)
+0.161417 print_debug_deviceinfo      (2):   0x1007 (Get object handles)
+0.161432 print_debug_deviceinfo      (2):   0x1008 (Get object info)
+0.161446 print_debug_deviceinfo      (2):   0x1009 (Get object)
+0.161461 print_debug_deviceinfo      (2):   0x100a (Get thumbnail)
+0.161476 print_debug_deviceinfo      (2):   0x100d (Send object)
+0.161490 print_debug_deviceinfo      (2):   0x101b (Get partial object)
+0.161505 print_debug_deviceinfo      (2):   0x9201 (SDIOConnect)
+0.161520 print_debug_deviceinfo      (2):   0x9202 (GetSDIOGetExtDeviceInfo)
+0.161535 print_debug_deviceinfo      (2):   0x9205 (SetControlDeviceA)
+0.161549 print_debug_deviceinfo      (2):   0x9207 (SetControlDeviceB)
+0.161564 print_debug_deviceinfo      (2):   0x9209 (GetAllDevicePropData)
+0.161579 print_debug_deviceinfo      (2):   0x920a (Unknown PTP_OC)
+0.161593 print_debug_deviceinfo      (2):   0x920b (Unknown PTP_OC)
+0.161608 print_debug_deviceinfo      (2):   0x920c (Unknown PTP_OC)
+0.161622 print_debug_deviceinfo      (2):   0x920d (Unknown PTP_OC)
+0.161636 print_debug_deviceinfo      (2):   0x920e (Unknown PTP_OC)
+0.161651 print_debug_deviceinfo      (2):   0x920f (Unknown PTP_OC)
+0.161665 print_debug_deviceinfo      (2):   0x9210 (Unknown PTP_OC)
+0.161680 print_debug_deviceinfo      (2):   0x9211 (Unknown PTP_OC)
+0.161694 print_debug_deviceinfo      (2):   0x9212 (Unknown PTP_OC)
+0.161708 print_debug_deviceinfo      (2):   0x9214 (Unknown PTP_OC)
+0.161723 print_debug_deviceinfo      (2):   0x9801 (Unknown PTP_OC)
+0.161737 print_debug_deviceinfo      (2):   0x9802 (Unknown PTP_OC)
+0.161771 print_debug_deviceinfo      (2):   0x9803 (Unknown PTP_OC)
+0.161786 print_debug_deviceinfo      (2):   0x9805 (Unknown PTP_OC)
+0.161799 print_debug_deviceinfo      (2): Events Supported:
+0.161813 print_debug_deviceinfo      (2):   0x4004 (StoreAdded)
+0.161826 print_debug_deviceinfo      (2):   0x4005 (StoreRemoved)
+0.161840 print_debug_deviceinfo      (2):   0xc201 (Sony_ObjectAdded)
+0.161854 print_debug_deviceinfo      (2):   0xc202 (Sony_ObjectRemoved)
+0.161867 print_debug_deviceinfo      (2):   0xc203 (Sony_PropertyChanged)
+0.161881 print_debug_deviceinfo      (2):   0xc204 (Unknown Event)
+0.161894 print_debug_deviceinfo      (2):   0xc205 (Unknown Event)
+0.161908 print_debug_deviceinfo      (2):   0xc206 (Unknown Event)
+0.161921 print_debug_deviceinfo      (2):   0xc207 (Unknown Event)
+0.161935 print_debug_deviceinfo      (2):   0xc208 (Unknown Event)
+0.161948 print_debug_deviceinfo      (2):   0xc209 (Unknown Event)
+0.161986 print_debug_deviceinfo      (2):   0xc20a (Unknown Event)
+0.162007 print_debug_deviceinfo      (2):   0xc20b (Unknown Event)
+0.162021 print_debug_deviceinfo      (2):   0xc20c (Unknown Event)
+0.162035 print_debug_deviceinfo      (2):   0xc20d (Unknown Event)
+0.162047 print_debug_deviceinfo      (2): Device Properties Supported:
+0.162100 ptp_usb_sendreq             (2): Sending PTP_OC 0x9201 (SDIOConnect) (0x1,0x0,0x0) request...
+0.162117 gp_port_write               (3): Writing 24 = 0x18 bytes to port...
+0.162200 gp_port_write               (3): Wrote   24 = 0x18 bytes to port: (hexdump of 24 bytes)
+0000  18 00 00 00 01 00 01 92-02 00 00 00 01 00 00 00  ................
+0010  00 00 00 00 00 00 00 00-                         ........        
+
+0.162218 ptp_usb_getdata             (2): Reading PTP_OC 0x9201 (SDIOConnect) data...
+0.162234 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.162800 gp_port_read                (3): Read    20 = 0x14 out of 1024 bytes from port: (hexdump of 20 bytes)
+0000  14 00 00 00 02 00 01 92-02 00 00 00 00 00 00 00  ................
+0010  00 00 00 00            -                         ....            
+
+0.162820 ptp_usb_getresp             (2): Reading PTP_OC 0x9201 (SDIOConnect) response...
+0.162834 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.163048 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-02 00 00 00              ....... ....    
+
+0.163069 ptp_usb_sendreq             (2): Sending PTP_OC 0x9201 (SDIOConnect) (0x2,0x0,0x0) request...
+0.163084 gp_port_write               (3): Writing 24 = 0x18 bytes to port...
+0.163199 gp_port_write               (3): Wrote   24 = 0x18 bytes to port: (hexdump of 24 bytes)
+0000  18 00 00 00 01 00 01 92-03 00 00 00 02 00 00 00  ................
+0010  00 00 00 00 00 00 00 00-                         ........        
+
+0.163216 ptp_usb_getdata             (2): Reading PTP_OC 0x9201 (SDIOConnect) data...
+0.163232 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.163663 gp_port_read                (3): Read    20 = 0x14 out of 1024 bytes from port: (hexdump of 20 bytes)
+0000  14 00 00 00 02 00 01 92-03 00 00 00 00 00 00 00  ................
+0010  00 00 00 00            -                         ....            
+
+0.163681 ptp_usb_getresp             (2): Reading PTP_OC 0x9201 (SDIOConnect) response...
+0.163696 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.164098 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-03 00 00 00              ....... ....    
+
+0.164118 ptp_usb_sendreq             (2): Sending PTP_OC 0x9202 (GetSDIOGetExtDeviceInfo) (0xc8) request...
+0.164133 gp_port_write               (3): Writing 16 = 0x10 bytes to port...
+0.164220 gp_port_write               (3): Wrote   16 = 0x10 bytes to port: (hexdump of 16 bytes)
+0000  10 00 00 00 01 00 02 92-04 00 00 00 c8 00 00 00  ................
+
+0.164257 ptp_usb_getdata             (2): Reading PTP_OC 0x9202 (GetSDIOGetExtDeviceInfo) data...
+0.164272 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.181774 gp_port_read                (3): Read    182 = 0xb6 out of 1024 bytes from port: (hexdump of 182 bytes)
+0000  b6 00 00 00 02 00 02 92-04 00 00 00 c8 00 41 00  ..............A.
+0010  00 00 04 50 05 50 07 50-0a 50 0b 50 0c 50 0e 50  ...P.P.P.P.P.P.P
+0020  10 50 13 50 00 d2 01 d2-03 d2 0d d2 0e d2 0f d2  .P.P............
+0030  10 d2 11 d2 13 d2 14 d2-15 d2 17 d2 18 d2 1b d2  ................
+0040  1c d2 1d d2 1e d2 1f d2-20 d2 21 d2 22 d2 23 d2  ........ .!.".#.
+0050  24 d2 26 d2 27 d2 28 d2-29 d2 2a d2 2b d2 35 d2  $.&.'.(.).*.+.5.
+0060  3e d2 3f d2 40 d2 41 d2-42 d2 43 d2 44 d2 45 d2  >.?.@.A.B.C.D.E.
+0070  46 d2 47 d2 48 d2 49 d2-4a d2 4b d2 4c d2 4d d2  F.G.H.I.J.K.L.M.
+0080  4e d2 4f d2 50 d2 5b d2-5c d2 5d d2 5f d2 60 d2  N.O.P.[.\.]._.`.
+0090  65 d2 66 d2 0f 00 00 00-c1 d2 c2 d2 c3 d2 c5 d2  e.f.............
+00a0  c7 d2 c8 d2 c9 d2 d1 d2-d5 d2 d6 d2 d7 d2 d8 d2  ................
+00b0  d9 d2 dd d2 de d2      -                         ......          
+
+0.181802 ptp_usb_getresp             (2): Reading PTP_OC 0x9202 (GetSDIOGetExtDeviceInfo) response...
+0.181817 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.186923 gp_port_read                (3): Read    16 = 0x10 out of 1024 bytes from port: (hexdump of 16 bytes)
+0000  10 00 00 00 03 00 01 20-04 00 00 00 2c 01 00 00  ....... ....,...
+
+0.186947 ptp                         (2): xsize 170, got size 136
+
+0.186967 fixup_cached_deviceinfo     (2): sony code: 5004
+0.186981 fixup_cached_deviceinfo     (2): sony code: 5005
+0.186994 fixup_cached_deviceinfo     (2): sony code: 5007
+0.187006 fixup_cached_deviceinfo     (2): sony code: 500a
+0.187019 fixup_cached_deviceinfo     (2): sony code: 500b
+0.187031 fixup_cached_deviceinfo     (2): sony code: 500c
+0.187044 fixup_cached_deviceinfo     (2): sony code: 500e
+0.187057 fixup_cached_deviceinfo     (2): sony code: 5010
+0.187070 fixup_cached_deviceinfo     (2): sony code: 5013
+0.187082 fixup_cached_deviceinfo     (2): sony code: d200
+0.187095 fixup_cached_deviceinfo     (2): sony code: d201
+0.187107 fixup_cached_deviceinfo     (2): sony code: d203
+0.187120 fixup_cached_deviceinfo     (2): sony code: d20d
+0.187133 fixup_cached_deviceinfo     (2): sony code: d20e
+0.187145 fixup_cached_deviceinfo     (2): sony code: d20f
+0.187158 fixup_cached_deviceinfo     (2): sony code: d210
+0.187171 fixup_cached_deviceinfo     (2): sony code: d211
+0.187183 fixup_cached_deviceinfo     (2): sony code: d213
+0.187196 fixup_cached_deviceinfo     (2): sony code: d214
+0.187208 fixup_cached_deviceinfo     (2): sony code: d215
+0.187221 fixup_cached_deviceinfo     (2): sony code: d217
+0.187234 fixup_cached_deviceinfo     (2): sony code: d218
+0.187246 fixup_cached_deviceinfo     (2): sony code: d21b
+0.187259 fixup_cached_deviceinfo     (2): sony code: d21c
+0.187272 fixup_cached_deviceinfo     (2): sony code: d21d
+0.187284 fixup_cached_deviceinfo     (2): sony code: d21e
+0.187297 fixup_cached_deviceinfo     (2): sony code: d21f
+0.187310 fixup_cached_deviceinfo     (2): sony code: d220
+0.187322 fixup_cached_deviceinfo     (2): sony code: d221
+0.187335 fixup_cached_deviceinfo     (2): sony code: d222
+0.187348 fixup_cached_deviceinfo     (2): sony code: d223
+0.187360 fixup_cached_deviceinfo     (2): sony code: d224
+0.187373 fixup_cached_deviceinfo     (2): sony code: d226
+0.187385 fixup_cached_deviceinfo     (2): sony code: d227
+0.187398 fixup_cached_deviceinfo     (2): sony code: d228
+0.187411 fixup_cached_deviceinfo     (2): sony code: d229
+0.187423 fixup_cached_deviceinfo     (2): sony code: d22a
+0.187436 fixup_cached_deviceinfo     (2): sony code: d22b
+0.187449 fixup_cached_deviceinfo     (2): sony code: d235
+0.187461 fixup_cached_deviceinfo     (2): sony code: d23e
+0.187474 fixup_cached_deviceinfo     (2): sony code: d23f
+0.187487 fixup_cached_deviceinfo     (2): sony code: d240
+0.187499 fixup_cached_deviceinfo     (2): sony code: d241
+0.187512 fixup_cached_deviceinfo     (2): sony code: d242
+0.187537 fixup_cached_deviceinfo     (2): sony code: d243
+0.187550 fixup_cached_deviceinfo     (2): sony code: d244
+0.187562 fixup_cached_deviceinfo     (2): sony code: d245
+0.187575 fixup_cached_deviceinfo     (2): sony code: d246
+0.187588 fixup_cached_deviceinfo     (2): sony code: d247
+0.187600 fixup_cached_deviceinfo     (2): sony code: d248
+0.187613 fixup_cached_deviceinfo     (2): sony code: d249
+0.187626 fixup_cached_deviceinfo     (2): sony code: d24a
+0.187638 fixup_cached_deviceinfo     (2): sony code: d24b
+0.187651 fixup_cached_deviceinfo     (2): sony code: d24c
+0.187663 fixup_cached_deviceinfo     (2): sony code: d24d
+0.187676 fixup_cached_deviceinfo     (2): sony code: d24e
+0.187689 fixup_cached_deviceinfo     (2): sony code: d24f
+0.187701 fixup_cached_deviceinfo     (2): sony code: d250
+0.187714 fixup_cached_deviceinfo     (2): sony code: d25b
+0.187726 fixup_cached_deviceinfo     (2): sony code: d25c
+0.187739 fixup_cached_deviceinfo     (2): sony code: d25d
+0.187752 fixup_cached_deviceinfo     (2): sony code: d25f
+0.187764 fixup_cached_deviceinfo     (2): sony code: d260
+0.187777 fixup_cached_deviceinfo     (2): sony code: d265
+0.187790 fixup_cached_deviceinfo     (2): sony code: d266
+0.187802 fixup_cached_deviceinfo     (2): sony code: d2c1
+0.187815 fixup_cached_deviceinfo     (2): sony code: d2c2
+0.187827 fixup_cached_deviceinfo     (2): sony code: d2c3
+0.187840 fixup_cached_deviceinfo     (2): sony code: d2c5
+0.187853 fixup_cached_deviceinfo     (2): sony code: d2c7
+0.187865 fixup_cached_deviceinfo     (2): sony code: d2c8
+0.187878 fixup_cached_deviceinfo     (2): sony code: d2c9
+0.187890 fixup_cached_deviceinfo     (2): sony code: d2d1
+0.187903 fixup_cached_deviceinfo     (2): sony code: d2d5
+0.187916 fixup_cached_deviceinfo     (2): sony code: d2d6
+0.187928 fixup_cached_deviceinfo     (2): sony code: d2d7
+0.187941 fixup_cached_deviceinfo     (2): sony code: d2d8
+0.187954 fixup_cached_deviceinfo     (2): sony code: d2d9
+0.187966 fixup_cached_deviceinfo     (2): sony code: d2dd
+0.187979 fixup_cached_deviceinfo     (2): sony code: d2de
+0.187996 ptp_usb_sendreq             (2): Sending PTP_OC 0x9201 (SDIOConnect) (0x3,0x0,0x0) request...
+0.188010 gp_port_write               (3): Writing 24 = 0x18 bytes to port...
+0.188085 gp_port_write               (3): Wrote   24 = 0x18 bytes to port: (hexdump of 24 bytes)
+0000  18 00 00 00 01 00 01 92-05 00 00 00 03 00 00 00  ................
+0010  00 00 00 00 00 00 00 00-                         ........        
+
+0.188103 ptp_usb_getdata             (2): Reading PTP_OC 0x9201 (SDIOConnect) data...
+0.188119 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.208853 gp_port_read                (3): Read    20 = 0x14 out of 1024 bytes from port: (hexdump of 20 bytes)
+0000  14 00 00 00 02 00 01 92-05 00 00 00 00 00 00 00  ................
+0010  00 00 00 00            -                         ....            
+
+0.208882 ptp_usb_getresp             (2): Reading PTP_OC 0x9201 (SDIOConnect) response...
+0.208896 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.209304 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-05 00 00 00              ....... ....    
+
+0.209326 ptp_usb_sendreq             (2): Sending PTP_OC 0x9205 (SetControlDeviceA) (0xd25a) request...
+0.209340 gp_port_write               (3): Writing 16 = 0x10 bytes to port...
+0.209419 gp_port_write               (3): Wrote   16 = 0x10 bytes to port: (hexdump of 16 bytes)
+0000  10 00 00 00 01 00 05 92-06 00 00 00 5a d2 00 00  ............Z...
+
+0.209436 ptp_usb_senddata            (2): Sending PTP_OC 0x9205 (SetControlDeviceA) data...
+0.209452 gp_port_write               (3): Writing 13 = 0xd bytes to port...
+0.209639 gp_port_write               (3): Wrote   13 = 0xd bytes to port: (hexdump of 13 bytes)
+0000  0d 00 00 00 02 00 05 92-06 00 00 00 01           .............   
+
+0.209657 ptp_usb_getresp             (2): Reading PTP_OC 0x9205 (SetControlDeviceA) response...
+0.209694 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.210250 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-06 00 00 00              ....... ....    
+
+0.210272 print_debug_deviceinfo      (2): Device info:
+0.210287 print_debug_deviceinfo      (2): Manufacturer: Sony Corporation
+0.210300 print_debug_deviceinfo      (2):   Model: ILCE-1
+0.210313 print_debug_deviceinfo      (2):   device version: 1.31
+0.210326 print_debug_deviceinfo      (2):   serial number: '00000000000000003285333003779386'
+0.210340 print_debug_deviceinfo      (2): Vendor extension ID: 0x00000011
+0.210353 print_debug_deviceinfo      (2): Vendor extension version: 100
+0.210366 print_debug_deviceinfo      (2): Vendor extension description: Sony PTP Extensions
+0.210380 print_debug_deviceinfo      (2): Functional Mode: 0x0000
+0.210393 print_debug_deviceinfo      (2): PTP Standard Version: 100
+0.210405 print_debug_deviceinfo      (2): Supported operations:
+0.210421 print_debug_deviceinfo      (2):   0x1001 (Get device info)
+0.210435 print_debug_deviceinfo      (2):   0x1002 (Open session)
+0.210450 print_debug_deviceinfo      (2):   0x1003 (Close session)
+0.210464 print_debug_deviceinfo      (2):   0x1004 (Get storage IDs)
+0.210479 print_debug_deviceinfo      (2):   0x1005 (Get storage info)
+0.210493 print_debug_deviceinfo      (2):   0x1006 (Get number of objects)
+0.210508 print_debug_deviceinfo      (2):   0x1007 (Get object handles)
+0.210522 print_debug_deviceinfo      (2):   0x1008 (Get object info)
+0.210537 print_debug_deviceinfo      (2):   0x1009 (Get object)
+0.210551 print_debug_deviceinfo      (2):   0x100a (Get thumbnail)
+0.210566 print_debug_deviceinfo      (2):   0x100d (Send object)
+0.210580 print_debug_deviceinfo      (2):   0x101b (Get partial object)
+0.210594 print_debug_deviceinfo      (2):   0x9201 (SDIOConnect)
+0.210609 print_debug_deviceinfo      (2):   0x9202 (GetSDIOGetExtDeviceInfo)
+0.210623 print_debug_deviceinfo      (2):   0x9205 (SetControlDeviceA)
+0.210638 print_debug_deviceinfo      (2):   0x9207 (SetControlDeviceB)
+0.210652 print_debug_deviceinfo      (2):   0x9209 (GetAllDevicePropData)
+0.210667 print_debug_deviceinfo      (2):   0x920a (Unknown PTP_OC)
+0.210681 print_debug_deviceinfo      (2):   0x920b (Unknown PTP_OC)
+0.210695 print_debug_deviceinfo      (2):   0x920c (Unknown PTP_OC)
+0.210710 print_debug_deviceinfo      (2):   0x920d (Unknown PTP_OC)
+0.210724 print_debug_deviceinfo      (2):   0x920e (Unknown PTP_OC)
+0.210738 print_debug_deviceinfo      (2):   0x920f (Unknown PTP_OC)
+0.210752 print_debug_deviceinfo      (2):   0x9210 (Unknown PTP_OC)
+0.210767 print_debug_deviceinfo      (2):   0x9211 (Unknown PTP_OC)
+0.210781 print_debug_deviceinfo      (2):   0x9212 (Unknown PTP_OC)
+0.210795 print_debug_deviceinfo      (2):   0x9214 (Unknown PTP_OC)
+0.210810 print_debug_deviceinfo      (2):   0x9801 (Unknown PTP_OC)
+0.210824 print_debug_deviceinfo      (2):   0x9802 (Unknown PTP_OC)
+0.210838 print_debug_deviceinfo      (2):   0x9803 (Unknown PTP_OC)
+0.210852 print_debug_deviceinfo      (2):   0x9805 (Unknown PTP_OC)
+0.210865 print_debug_deviceinfo      (2): Events Supported:
+0.210879 print_debug_deviceinfo      (2):   0x4004 (StoreAdded)
+0.210892 print_debug_deviceinfo      (2):   0x4005 (StoreRemoved)
+0.210906 print_debug_deviceinfo      (2):   0xc201 (Sony_ObjectAdded)
+0.210919 print_debug_deviceinfo      (2):   0xc202 (Sony_ObjectRemoved)
+0.210933 print_debug_deviceinfo      (2):   0xc203 (Sony_PropertyChanged)
+0.210946 print_debug_deviceinfo      (2):   0xc204 (Unknown Event)
+0.210960 print_debug_deviceinfo      (2):   0xc205 (Unknown Event)
+0.210973 print_debug_deviceinfo      (2):   0xc206 (Unknown Event)
+0.210987 print_debug_deviceinfo      (2):   0xc207 (Unknown Event)
+0.211000 print_debug_deviceinfo      (2):   0xc208 (Unknown Event)
+0.211013 print_debug_deviceinfo      (2):   0xc209 (Unknown Event)
+0.211027 print_debug_deviceinfo      (2):   0xc20a (Unknown Event)
+0.211040 print_debug_deviceinfo      (2):   0xc20b (Unknown Event)
+0.211072 print_debug_deviceinfo      (2):   0xc20c (Unknown Event)
+0.211086 print_debug_deviceinfo      (2):   0xc20d (Unknown Event)
+0.211098 print_debug_deviceinfo      (2): Device Properties Supported:
+0.211118 print_debug_deviceinfo      (2):   0x5004 (Compression Setting)
+0.211134 print_debug_deviceinfo      (2):   0x5005 (White Balance)
+0.211149 print_debug_deviceinfo      (2):   0x5007 (F-Number)
+0.211165 print_debug_deviceinfo      (2):   0x500a (Focus Mode)
+0.211180 print_debug_deviceinfo      (2):   0x500b (Exposure Metering Mode)
+0.211196 print_debug_deviceinfo      (2):   0x500c (Flash Mode)
+0.211211 print_debug_deviceinfo      (2):   0x500e (Exposure Program Mode)
+0.211227 print_debug_deviceinfo      (2):   0x5010 (Exposure Bias Compensation)
+0.211242 print_debug_deviceinfo      (2):   0x5013 (Still Capture Mode)
+0.211258 print_debug_deviceinfo      (2):   0xd200 (DOC Compensation)
+0.211273 print_debug_deviceinfo      (2):   0xd201 (DRangeOptimize)
+0.211289 print_debug_deviceinfo      (2):   0xd203 (Image size)
+0.211304 print_debug_deviceinfo      (2):   0xd20d (Shutter speed)
+0.211320 print_debug_deviceinfo      (2):   0xd20e (Unknown DPC code)
+0.211336 print_debug_deviceinfo      (2):   0xd20f (Color temperature)
+0.211351 print_debug_deviceinfo      (2):   0xd210 (CC Filter)
+0.211367 print_debug_deviceinfo      (2):   0xd211 (Aspect Ratio)
+0.211382 print_debug_deviceinfo      (2):   0xd213 (Focus status)
+0.211398 print_debug_deviceinfo      (2):   0xd214 (Zoom)
+0.211413 print_debug_deviceinfo      (2):   0xd215 (Objects in memory)
+0.211429 print_debug_deviceinfo      (2):   0xd217 (Unknown DPC code)
+0.211445 print_debug_deviceinfo      (2):   0xd218 (Battery Level)
+0.211460 print_debug_deviceinfo      (2):   0xd21b (Picture Effect)
+0.211476 print_debug_deviceinfo      (2):   0xd21c (AB Filter)
+0.211491 print_debug_deviceinfo      (2):   0xd21d (Unknown DPC code)
+0.211529 print_debug_deviceinfo      (2):   0xd21e (ISO)
+0.211547 print_debug_deviceinfo      (2):   0xd21f (Unknown DPC code)
+0.211562 print_debug_deviceinfo      (2):   0xd220 (Unknown DPC code)
+0.211578 print_debug_deviceinfo      (2):   0xd221 (Unknown DPC code)
+0.211593 print_debug_deviceinfo      (2):   0xd222 (Capture Target)
+0.211609 print_debug_deviceinfo      (2):   0xd223 (Unknown DPC code)
+0.211625 print_debug_deviceinfo      (2):   0xd224 (Exposure Bias Compensation)
+0.211640 print_debug_deviceinfo      (2):   0xd226 (ISO)
+0.211656 print_debug_deviceinfo      (2):   0xd227 (Unknown DPC code)
+0.211672 print_debug_deviceinfo      (2):   0xd228 (Unknown DPC code)
+0.211687 print_debug_deviceinfo      (2):   0xd229 (Shutter speed)
+0.211703 print_debug_deviceinfo      (2):   0xd22a (Unknown DPC code)
+0.211718 print_debug_deviceinfo      (2):   0xd22b (Unknown DPC code)
+0.211734 print_debug_deviceinfo      (2):   0xd235 (Unknown DPC code)
+0.211750 print_debug_deviceinfo      (2):   0xd23e (Unknown DPC code)
+0.211765 print_debug_deviceinfo      (2):   0xd23f (Unknown DPC code)
+0.211781 print_debug_deviceinfo      (2):   0xd240 (Unknown DPC code)
+0.211797 print_debug_deviceinfo      (2):   0xd241 (Unknown DPC code)
+0.211812 print_debug_deviceinfo      (2):   0xd242 (Unknown DPC code)
+0.211828 print_debug_deviceinfo      (2):   0xd243 (Unknown DPC code)
+0.211844 print_debug_deviceinfo      (2):   0xd244 (Unknown DPC code)
+0.211859 print_debug_deviceinfo      (2):   0xd245 (Unknown DPC code)
+0.211875 print_debug_deviceinfo      (2):   0xd246 (Unknown DPC code)
+0.211891 print_debug_deviceinfo      (2):   0xd247 (Unknown DPC code)
+0.211906 print_debug_deviceinfo      (2):   0xd248 (Unknown DPC code)
+0.211922 print_debug_deviceinfo      (2):   0xd249 (Unknown DPC code)
+0.211937 print_debug_deviceinfo      (2):   0xd24a (Unknown DPC code)
+0.211953 print_debug_deviceinfo      (2):   0xd24b (Unknown DPC code)
+0.211986 print_debug_deviceinfo      (2):   0xd24c (Unknown DPC code)
+0.212008 print_debug_deviceinfo      (2):   0xd24d (Unknown DPC code)
+0.212023 print_debug_deviceinfo      (2):   0xd24e (Unknown DPC code)
+0.212057 print_debug_deviceinfo      (2):   0xd24f (Unknown DPC code)
+0.212073 print_debug_deviceinfo      (2):   0xd250 (Unknown DPC code)
+0.212088 print_debug_deviceinfo      (2):   0xd25b (Unknown DPC code)
+0.212104 print_debug_deviceinfo      (2):   0xd25c (Unknown DPC code)
+0.212119 print_debug_deviceinfo      (2):   0xd25d (Unknown DPC code)
+0.212135 print_debug_deviceinfo      (2):   0xd25f (Unknown DPC code)
+0.212151 print_debug_deviceinfo      (2):   0xd260 (Unknown DPC code)
+0.212166 print_debug_deviceinfo      (2):   0xd265 (Unknown DPC code)
+0.212182 print_debug_deviceinfo      (2):   0xd266 (Unknown DPC code)
+0.212197 print_debug_deviceinfo      (2):   0xd2c1 (Autofocus)
+0.212212 print_debug_deviceinfo      (2):   0xd2c2 (Capture)
+0.212228 print_debug_deviceinfo      (2):   0xd2c3 (Unknown DPC code)
+0.212244 print_debug_deviceinfo      (2):   0xd2c5 (Unknown DPC code)
+0.212259 print_debug_deviceinfo      (2):   0xd2c7 (Still Image)
+0.212274 print_debug_deviceinfo      (2):   0xd2c8 (Movie)
+0.212290 print_debug_deviceinfo      (2):   0xd2c9 (Unknown DPC code)
+0.212305 print_debug_deviceinfo      (2):   0xd2d1 (Near Far)
+0.212320 print_debug_deviceinfo      (2):   0xd2d5 (Unknown DPC code)
+0.212336 print_debug_deviceinfo      (2):   0xd2d6 (Unknown DPC code)
+0.212351 print_debug_deviceinfo      (2):   0xd2d7 (Unknown DPC code)
+0.212367 print_debug_deviceinfo      (2):   0xd2d8 (Unknown DPC code)
+0.212382 print_debug_deviceinfo      (2):   0xd2d9 (Unknown DPC code)
+0.212398 print_debug_deviceinfo      (2):   0xd2dd (Unknown DPC code)
+0.212413 print_debug_deviceinfo      (2):   0xd2de (Unknown DPC code)
+0.212433 ptp_usb_sendreq             (2): Sending PTP_OC 0x1004 (Get storage IDs) request...
+0.212447 gp_port_write               (3): Writing 12 = 0xc bytes to port...
+0.212526 gp_port_write               (3): Wrote   12 = 0xc bytes to port: (hexdump of 12 bytes)
+0000  0c 00 00 00 01 00 04 10-07 00 00 00              ............    
+
+0.212543 ptp_usb_getdata             (2): Reading PTP_OC 0x1004 (Get storage IDs) data...
+0.212559 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.216041 _cb_irq                     (2): 0x11e9b40 with status 0
+0.216062 _cb_irq                     (3): interrupt (hexdump of 16 bytes)
+0000  10 00 00 00 04 00 03 c2-ff ff ff ff 00 00 00 00  ................
+
+0.216077 _cb_irq                     (2): Requeuing completed transfer 0x11e9b40
+0.224041 _cb_irq                     (2): 0x11df8d8 with status 0
+0.224065 _cb_irq                     (3): interrupt (hexdump of 12 bytes)
+0000  0c 00 00 00 04 00 07 c2-ff ff ff ff              ............    
+
+0.224079 _cb_irq                     (2): Requeuing completed transfer 0x11df8d8
+0.228322 gp_port_read                (3): Read    16 = 0x10 out of 1024 bytes from port: (hexdump of 16 bytes)
+0000  10 00 00 00 02 00 04 10-07 00 00 00 00 00 00 00  ................
+
+0.228342 ptp_usb_getresp             (2): Reading PTP_OC 0x1004 (Get storage IDs) response...
+0.228357 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.232040 _cb_irq                     (2): 0x11e88f8 with status 0
+0.232063 _cb_irq                     (3): interrupt (hexdump of 12 bytes)
+0000  0c 00 00 00 04 00 0c c2-ff ff ff ff              ............    
+
+0.232077 _cb_irq                     (2): Requeuing completed transfer 0x11e88f8
+0.235015 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-07 00 00 00              ....... ....    
+
+0.235038 ptp_usb_sendreq             (2): Sending PTP_OC 0x1004 (Get storage IDs) request...
+0.235052 gp_port_write               (3): Writing 12 = 0xc bytes to port...
+0.235274 gp_port_write               (3): Wrote   12 = 0xc bytes to port: (hexdump of 12 bytes)
+0000  0c 00 00 00 01 00 04 10-08 00 00 00              ............    
+
+0.235291 ptp_usb_getdata             (2): Reading PTP_OC 0x1004 (Get storage IDs) data...
+0.235306 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.239298 gp_port_read                (3): Read    16 = 0x10 out of 1024 bytes from port: (hexdump of 16 bytes)
+0000  10 00 00 00 02 00 04 10-08 00 00 00 00 00 00 00  ................
+
+0.239317 ptp_usb_getresp             (2): Reading PTP_OC 0x1004 (Get storage IDs) response...
+0.239331 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.239504 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-08 00 00 00              ....... ....    
+
+0.240440 gp_camera_free              (2): Freeing camera...
+0.240462 gp_camera_exit              (2): Exiting camera ('USB PTP Class Camera')...
+0.240482 ptp_usb_sendreq             (2): Sending PTP_OC 0x1003 (Close session) request...
+0.240496 gp_port_write               (3): Writing 12 = 0xc bytes to port...
+0.240581 gp_port_write               (3): Wrote   12 = 0xc bytes to port: (hexdump of 12 bytes)
+0000  0c 00 00 00 01 00 03 10-09 00 00 00              ............    
+
+0.240598 ptp_usb_getresp             (2): Reading PTP_OC 0x1003 (Close session) response...
+0.240614 gp_port_read                (3): Reading 1024 = 0x400 bytes from port...
+0.241371 gp_port_read                (3): Read    12 = 0xc out of 1024 bytes from port: (hexdump of 12 bytes)
+0000  0c 00 00 00 03 00 01 20-09 00 00 00              ....... ....    
+
+0.241402 gp_port_close               (2): Closing port...
+0.242496 _close_async_interrupts     (2): canceling transfer 0:0x11e9b40 (status 0)
+0.242721 _close_async_interrupts     (2): canceling transfer 1:0x11df8d8 (status 0)
+0.242930 _close_async_interrupts     (2): canceling transfer 2:0x11e88f8 (status 0)
+0.243136 _close_async_interrupts     (2): canceling transfer 3:0x11e75e0 (status 0)
+0.243381 _close_async_interrupts     (2): canceling transfer 4:0x11e0680 (status 0)
+0.243473 _close_async_interrupts     (2): canceling transfer 5:0x11d97d8 (status 0)
+0.243725 _close_async_interrupts     (2): canceling transfer 6:0x11e8fa0 (status 0)
+0.243816 _close_async_interrupts     (2): canceling transfer 7:0x11f2a90 (status 0)
+0.244069 _close_async_interrupts     (2): canceling transfer 8:0x11f2b18 (status 0)
+0.244160 _close_async_interrupts     (2): canceling transfer 9:0x11db3f8 (status 0)
+0.244416 _cb_irq                     (2): 0x11e9b40 with status 3
+0.244433 _cb_irq                     (2): Transfer 0x11e9b40 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244455 _cb_irq                     (2): 0x11df8d8 with status 3
+0.244470 _cb_irq                     (2): Transfer 0x11df8d8 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244487 _cb_irq                     (2): 0x11e88f8 with status 3
+0.244501 _cb_irq                     (2): Transfer 0x11e88f8 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244519 _cb_irq                     (2): 0x11e75e0 with status 3
+0.244533 _cb_irq                     (2): Transfer 0x11e75e0 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244551 _cb_irq                     (2): 0x11e0680 with status 3
+0.244565 _cb_irq                     (2): Transfer 0x11e0680 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244583 _cb_irq                     (2): 0x11d97d8 with status 3
+0.244596 _cb_irq                     (2): Transfer 0x11d97d8 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244614 _cb_irq                     (2): 0x11e8fa0 with status 3
+0.244628 _cb_irq                     (2): Transfer 0x11e8fa0 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244646 _cb_irq                     (2): 0x11f2a90 with status 3
+0.244660 _cb_irq                     (2): Transfer 0x11f2a90 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244678 _cb_irq                     (2): 0x11f2b18 with status 3
+0.244692 _cb_irq                     (2): Transfer 0x11f2b18 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.244710 _cb_irq                     (2): 0x11db3f8 with status 3
+0.244723 _cb_irq                     (2): Transfer 0x11db3f8 should be in LIBUSB_TRANSFER_COMPLETED, but is 3!
+0.245397 gp_filesystem_reset         (2): resetting filesystem
+0.245442 gp_filesystem_lru_clear     (2): Clearing fscache LRU list...
+0.245455 gp_filesystem_lru_clear     (2): fscache LRU list already empty
+0.245469 delete_all_folders          (2): Internally deleting all folders from '/'...
+0.245483 lookup_folder               (2): Lookup folder '/'...
+0.245497 lookup_folder               (2): Found! / is 0x11d7460
+0.245511 recurse_delete_folder       (2): Recurse delete folder 0x11d7460//
+0.245525 delete_all_files            (2): Delete all files in folder 0x11d7460//
+0.245537 gp_port_free                (2): Freeing port...
+0.245550 gp_port_close               (2): Closing port...
+0.245940 gp_filesystem_reset         (2): resetting filesystem
+0.245962 gp_filesystem_lru_clear     (2): Clearing fscache LRU list...
+0.245975 gp_filesystem_lru_clear     (2): fscache LRU list already empty
+0.245988 delete_all_folders          (2): Internally deleting all folders from '/'...
+0.246001 lookup_folder               (2): Lookup folder '/'...
+0.246014 lookup_folder               (2): Found! / is 0x11d7460
+0.246027 recurse_delete_folder       (2): Recurse delete folder 0x11d7460//
+0.246041 delete_all_files            (2): Delete all files in folder 0x11d7460//

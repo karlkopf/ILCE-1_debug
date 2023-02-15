@@ -1,0 +1,2 @@
+ERROR: Could not capture image.
+ERROR: Could not capture.

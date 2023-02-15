@@ -1,0 +1,8 @@
+
+*** Error ***              
+Could not detect any camera
+
+*** Error ***              
+An error occurred in the io-library ('Unknown error'): No error description available
+*** Error (-105: 'Unknown model') ***       
+

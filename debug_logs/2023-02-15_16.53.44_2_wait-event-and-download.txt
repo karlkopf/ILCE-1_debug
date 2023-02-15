@@ -1,0 +1,2 @@
+Waiting for 1 events from camera. Press Ctrl-C to abort.
+UNKNOWN PTP Event c20c, Param1 00000000

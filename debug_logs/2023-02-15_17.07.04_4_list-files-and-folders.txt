@@ -1,0 +1,5 @@
+There is 1 folder in folder '/'.
+ - store_00010001
+There are 0 folders in folder '/store_00010001'.
+There is no file in folder '/'.
+There is no file in folder '/store_00010001'.

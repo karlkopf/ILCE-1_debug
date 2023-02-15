@@ -1,0 +1,28 @@
+Waiting for events from camera. Press Ctrl-C to abort.
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Event c207, Param1 00000000
+UNKNOWN PTP Event c20c, Param1 00000000
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Event c20c, Param1 00000000
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Event c206, Param1 00000000
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+Saving file as /root/cp/ilce-1/results/2023-02-15_17.13.21_tethered.jpg
+CAPTURECOMPLETE
+UNKNOWN PTP Event c201, Param1 ffffc001
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Event c202, Param1 ffffc001
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Property 0000 changed, "PTP Property 0x0000" to "Unknown type 0x0000"
+UNKNOWN PTP Event c20c, Param1 00000000
+
+Cancelling...

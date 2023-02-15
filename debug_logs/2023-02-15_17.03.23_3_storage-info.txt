@@ -1,0 +1,2 @@
+*** Error (-52: 'Could not find the requested device on the USB port') ***       
+
